@@ -24,7 +24,7 @@ function App() {
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
               style={{ backgroundColor: "orange" }}
             >
-            orange
+              orange
             </button>
             <button
               onClick={() => setColor("yellow")}
@@ -40,6 +40,12 @@ function App() {
               style={{ backgroundColor: "black" }}
             >
               black
+            </button>
+            <button
+              onClick={() => setColor("silver")}
+              className="outline-none px-4 py-1 rounded-full text-white shaddow-lg bg-[#C0C0C0]"
+            >
+              silver
             </button>
           </div>
         </div>
