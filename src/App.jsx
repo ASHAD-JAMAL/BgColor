@@ -47,6 +47,12 @@ function App() {
             >
               silver
             </button>
+            <button
+            onClick={() => setColor("lime")}
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg bg-[#00FF00]"
+            >
+              lime
+            </button>
           </div>
         </div>
       </div>
